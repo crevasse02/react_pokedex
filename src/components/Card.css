@@ -1,0 +1,20 @@
+html {
+  font-size: 100%;
+}
+
+.bg-pokemon {
+  --bs-bg-opacity: 1;
+  background-color: #28b463 !important;
+}
+
+.border-pokemon {
+  border-radius: 20px !important;
+}
+
+.overflow-pokemon {
+  height: 90vh;
+  overflow: auto;
+}
+.overflow-pokemon::-webkit-scrollbar {
+  display: none;
+}
